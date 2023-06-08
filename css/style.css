@@ -12,12 +12,18 @@
     font-family: "Rajdhani";
     src: url(../fonts/Rajdhani/Rajdhani-Regular.ttf), format(truetype);
 }
-
+:root {
+    --braon-coffe: #7A4C28;
+    --baige-light: #FBC69E;
+    --dark-nude: #C77B42;
+    --white: #fff;
+    --black: #000;
+}
 body {
     width: 100%;
     object-fit: cover;
-    background-color: black;
-    color: white;
+    background-color: var(--baige-light);
+    color: var(--dark-nude);
 }
 
 .logo {
@@ -65,7 +71,7 @@ p {
 .first, 
 .second,
 .third {
-    border: 1px solid red;
+    border: 1px solid var(--dark-nude);
     padding: 10px;
     margin: 10px auto;
     overflow: hidden;
@@ -75,6 +81,8 @@ p {
     object-fit: cover;
     height: 500px;
     width: 300px;
+    background-color: var(--braon-coffe);
+    color: var(--baige-light);
 }
 
 img {
@@ -89,7 +97,7 @@ img {
 }
 
 h3 {
-    border: 1px solid red;
+    border: 1px solid var(--baige-light);
     padding: 5px 10px;
     margin: 10px;
     
