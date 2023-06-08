@@ -30,6 +30,7 @@ body {
     font-family: "Abril";
     font-size: 2em;
     letter-spacing: .2em;
+    color: var(--braon-coffe);
 }
 
 section {
