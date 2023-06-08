@@ -16,7 +16,12 @@
 body {
     width: 100%;
     object-fit: cover;
-    background-color: grey;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    font-family: "Abril";
 }
 
 section {
@@ -43,14 +48,29 @@ p {
     border: 1px solid red;
     padding: 10px;
     margin: 20px auto;
-    object-fit:contain;
     overflow: hidden;
     justify-content: center;
     text-align: center;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
+
 img {
     width: 260px;
     height: 160px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h3 {
+    border: 1px solid red;
+    padding: 5px 10px;
+    margin: 10px;
+    
 }
 
 
@@ -72,6 +92,7 @@ textarea {
     padding: 10px;
     margin: 10px;
     font-family: "Mono";
+    border: red;
 }
 
 button {
@@ -92,6 +113,8 @@ button:hover {
 
 label {
     padding-left: 10px;
+    font-family: "Mono";
+    letter-spacing: .2cap;
 }
 
 .error-msg {
@@ -110,6 +133,7 @@ label {
     .two {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     .first,
@@ -117,7 +141,8 @@ label {
     .third {
         padding: 20px;
         margin: 10px;
-        width: 30%;
+        width: 400px;
+        height: 550px;
     }
 
     form {
