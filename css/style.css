@@ -33,9 +33,28 @@ body {
     font-family: "Abril";
     font-size: 2em;
     letter-spacing: .2em;
+    text-align: center;
     color: var(--braon-coffe);
-    transition: all 3s;
+    animation: transitionIn 2s;
 }
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+       transform: rotateX('-10deg');
+    }
+    to {
+        opacity: 1;
+       transform: rotateX('0deg');
+    }
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    color: var(--dark-nude)
+}
+
 
 section {
     padding: 20px;
@@ -45,7 +64,8 @@ section {
 h1, h2 {
     font-family: "Abril";
     letter-spacing: .3em;
-    color: var(--hard-braon)
+    color: var(--hard-braon);
+    margin-left: 10px;
 }
 
 a {
@@ -55,7 +75,7 @@ a {
 
 h3:hover {
     background-color: var(--dark-nude);
-    color: var(--braon-coffe);
+    color: var(--light-orange);
 }
 
 p {
@@ -80,10 +100,11 @@ p {
 .one {
     border: 1px solid;
     padding: 10px;
-    margin: 10px;
+    margin: 10px auto;
     border-radius: 2px;
     background-color: var(--dark-nude);
     color: var(--black);
+    width: 90%;
 }
 
 /* PROJECTS */
@@ -125,8 +146,6 @@ h3 {
 }
 
 
-
-
 /* CONTACT FORM */
 
 form {
@@ -144,6 +163,7 @@ textarea {
     margin: 10px;
     font-family: "Mono";
     border: red;
+    margin-bottom: 0;
 }
 
 button {
@@ -156,6 +176,7 @@ button {
     text-transform: uppercase;
     background-color: var(--white);
     border: none;
+    margin-top: 10px;
 }
 
 button:hover {
@@ -167,12 +188,40 @@ label {
     padding-left: 10px;
     font-family: "Mono";
     letter-spacing: .2cap;
+    margin-top: 5px;
 }
 
-.error-msg {
+.error-msg,
+.success-msg {
+    font-family: "Mono";
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0;
     display: none;
 }
 
+.error-msg {
+    color: red;
+}
+
+.success-msg {
+    color: green;
+}
+
+.icons p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--braon-coffe);
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2rem;
+    background-color: var(--dark-nude);
+}
+
+.icons p:hover {
+    background-color: var(--light-orange);
+}
 
 
 @media (min-width: 700px) {
