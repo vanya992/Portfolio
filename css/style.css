@@ -16,12 +16,15 @@
     --braon-coffe: #7A4C28;
     --baige-light: #FBC69E;
     --dark-nude: #C77B42;
+    --light-orange: #FA9B52;
+    --hard-braon: #8E3F01;
     --white: #fff;
     --black: #000;
 }
 body {
     width: 100%;
     object-fit: cover;
+    margin: 0;
     background-color: var(--baige-light);
     color: var(--dark-nude);
 }
@@ -31,6 +34,7 @@ body {
     font-size: 2em;
     letter-spacing: .2em;
     color: var(--braon-coffe);
+    transition: all 3s ease-in;
 }
 
 section {
@@ -41,19 +45,24 @@ section {
 h1, h2 {
     font-family: "Abril";
     letter-spacing: .3em;
-    color: var(--braon-coffe)
+    color: var(--hard-braon)
 }
 
 a {
     color: white;
     text-decoration: none;
+}
 
+h3:hover {
+    background-color: var(--dark-nude);
+    color: var(--braon-coffe);
 }
 
 p {
     font-family: "Rajdhani";
     padding: 10px;
     letter-spacing: .1em;
+    color: var(--black)
 }
 
 .icons img {
@@ -68,6 +77,14 @@ p {
 
 /* ABOUT ME */
 
+.one {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: var(--dark-nude);
+    color: var(--black);
+}
 
 /* PROJECTS */
 
@@ -85,8 +102,8 @@ p {
     object-fit: cover;
     height: 550px;
     width: 300px;
-    background-color: var(--braon-coffe);
-    color: var(--baige-light);
+    background-color: var(--dark-nude);
+    color: var(--braon-coffe);
 }
 
 img {
