@@ -36,6 +36,12 @@ h1, h2 {
     letter-spacing: .3em;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
 p {
     font-family: "Rajdhani";
     padding: 10px;
