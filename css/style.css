@@ -40,6 +40,7 @@ section {
 h1, h2 {
     font-family: "Abril";
     letter-spacing: .3em;
+    color: var(--braon-coffe)
 }
 
 a {
@@ -51,6 +52,7 @@ a {
 p {
     font-family: "Rajdhani";
     padding: 10px;
+    letter-spacing: .1em;
 }
 
 .icons img {
@@ -71,15 +73,16 @@ p {
 .first, 
 .second,
 .third {
+    display: flex;
+    flex-direction: column;
     border: 1px solid var(--dark-nude);
     padding: 10px;
     margin: 10px auto;
-    overflow: hidden;
     justify-content: center;
     text-align: center;
     aspect-ratio: 1/1;
     object-fit: cover;
-    height: 500px;
+    height: 550px;
     width: 300px;
     background-color: var(--braon-coffe);
     color: var(--baige-light);
@@ -111,9 +114,9 @@ h3 {
 form {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     text-align: left;
-    margin: auto;
+    margin: 10px;
     padding: 20px;
 }
 
@@ -128,17 +131,18 @@ textarea {
 button {
     width: 30%;
     justify-content: center;
-    margin: 10px auto;
-    padding: 10px;
-    position: relative;
-
+    margin: 5px auto;
+    padding: 5px;
+    font-family: "Rajdhani";
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: var(--white);
+    border: none;
 }
 
 button:hover {
-    color: #255784;
-    background: #FF00AE;
-    box-shadow: 0 0 10px #FF00AE, 0 0 40px #FF00AE, 0 0 80px #FF00AE;
-    transition-delay: 1s;
+    background-color: var(--braon-coffe);
+    color: var(--baige-light);
 }
 
 label {
