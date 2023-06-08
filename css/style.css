@@ -22,6 +22,8 @@ body {
 
 .logo {
     font-family: "Abril";
+    font-size: 2em;
+    letter-spacing: .2em;
 }
 
 section {
@@ -35,6 +37,16 @@ h1, h2 {
 
 p {
     font-family: "Rajdhani";
+}
+
+.icons img {
+    width: 80px;
+    height: 80px;
+}
+
+.three div {
+    display: flex;
+    justify-content: center;
 }
 
 /* ABOUT ME */
