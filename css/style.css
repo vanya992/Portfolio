@@ -85,7 +85,7 @@ p {
     color: var(--black)
 }
 
-.icons img {
+.icon {
     width: 80px;
     height: 80px;
 }
@@ -94,11 +94,22 @@ p {
     display: flex;
     justify-content: center;
 }
+.about {
+    position: relative;
+}
+
+.profile {
+    position: absolute; 
+    right: 10px;
+    border-radius: 50%;
+    width: 150px;
+    bottom: -480px;
+}
 
 /* ABOUT ME */
 
 .one {
-    border: 1px solid;
+    border: 1px solid var(--dark-nude);
     padding: 10px;
     margin: 10px auto;
     border-radius: 2px;
@@ -127,7 +138,7 @@ p {
     color: var(--braon-coffe);
 }
 
-img {
+.homepage {
     width: 210px;
     height: 110px;
 }
@@ -248,5 +259,11 @@ label {
 
     form {
         width: 40%;
+    }
+
+    .profile {
+        top: -30px;
+        right: 50px;
+        z-index: -1;
     }
 }
