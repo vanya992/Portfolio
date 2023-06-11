@@ -109,13 +109,7 @@ p {
 .profile {
     right: 15px;
     width: 20%;
-    border-radius: 50%;
-}
-
-b {
-    display: flex;
-    margin: auto;
-    text-align: center;
+    border-radius: 10px;
 }
 
 /* ABOUT ME */
@@ -133,6 +127,10 @@ b {
     width: 20px;
     padding: 2px;
     margin: auto;
+}
+.about-heading {
+    displaY: flex;
+    justify-content: space-between;
 }
 
 /* PROJECTS */
@@ -283,17 +281,12 @@ hr {
 
     .profile {
         width: 120px;
-        flex-direction: row-reverse;
-    }
-
-    .about-heading {
-        display: flex;
-        flex-direction: row-reverse;
     }
 
     .two {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         width: auto;
     }
