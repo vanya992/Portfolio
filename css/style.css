@@ -97,17 +97,16 @@ p {
     justify-content: center;
 }
 
-
-.about-header {
+.about div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .profile {
     width: 80px;
     border-radius: 10px;
+    margin-right: 30px;
 }
 
 /* ABOUT ME */
