@@ -35,17 +35,15 @@ body {
     letter-spacing: .2em;
     text-align: center;
     color: var(--braon-coffe);
-    animation: transitionIn 2s;
+    animation: fadeIn 2s;
 }
 
-@keyframes transitionIn {
+@keyframes fadeIn {
     from {
         opacity: 0;
-       transform: rotateX('-10deg');
     }
     to {
         opacity: 1;
-       transform: rotateX('0deg');
     }
 }
 
@@ -98,12 +96,17 @@ p {
     position: relative;
 }
 
+.about div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .profile {
-    position: absolute; 
-    right: 10px;
+   
+    right: 15px;
+    width: 15%;
     border-radius: 50%;
-    width: 150px;
-    bottom: -480px;
 }
 
 /* ABOUT ME */
@@ -115,7 +118,6 @@ p {
     border-radius: 2px;
     background-color: var(--dark-nude);
     color: var(--black);
-    width: 90%;
 }
 
 /* PROJECTS */
@@ -224,9 +226,8 @@ label {
     flex-direction: column;
     align-items: center;
     border: 1px solid var(--braon-coffe);
-    margin: 10px;
+    margin: 5px;
     border-radius: 5px;
-    box-shadow: 2rem;
     background-color: var(--dark-nude);
 }
 
@@ -238,7 +239,7 @@ label {
 @media (min-width: 700px) {
 
     body {
-        width: 80%;
+        width: 70%;
         margin: auto;
     }
 
@@ -246,6 +247,7 @@ label {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        width: auto;
     }
 
     .first,
@@ -253,17 +255,10 @@ label {
     .third {
         padding: 20px;
         margin: 10px;
-        width: 400px;
-        height: 550px;
     }
 
     form {
         width: 40%;
     }
 
-    .profile {
-        top: -30px;
-        right: 50px;
-        z-index: -1;
-    }
 }
