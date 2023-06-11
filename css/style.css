@@ -71,6 +71,10 @@ a {
     text-decoration: none;
 }
 
+.findme {
+    text-align: right;
+}
+
 h3:hover {
     background-color: var(--dark-nude);
     color: var(--light-orange);
