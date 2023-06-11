@@ -103,10 +103,14 @@ p {
 }
 
 .profile {
-   
     right: 15px;
-    width: 15%;
+    width: 20%;
     border-radius: 50%;
+}
+
+b {
+    margin: auto;
+    text-align: center;
 }
 
 /* ABOUT ME */
@@ -256,6 +260,9 @@ label {
         margin: auto;
     }
 
+    .profile {
+        position: absolute;
+    }
     .two {
         display: flex;
         flex-direction: row;
