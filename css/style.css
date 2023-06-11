@@ -109,6 +109,7 @@ p {
 }
 
 b {
+    display: flex;
     margin: auto;
     text-align: center;
 }
@@ -148,6 +149,15 @@ b {
     width: 300px;
     background-color: var(--dark-nude);
     color: var(--braon-coffe);
+    position: relative;
+}
+
+.first h1,
+.second h1,
+.third h1 {
+    position: absolute;
+    top: 5px;
+    font-size: 1em;
 }
 
 .homepage {
@@ -250,7 +260,10 @@ label {
     display: grid;
 }
 
-
+hr {
+    color: var(--black);
+    
+}
 
 
 @media (min-width: 700px) {
@@ -260,9 +273,20 @@ label {
         margin: auto;
     }
 
-    .profile {
-        position: absolute;
+    .logo {
+        text-align: left;
     }
+
+    .profile {
+        width: 120px;
+        flex-direction: row-reverse;
+    }
+
+    .about-heading {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .two {
         display: flex;
         flex-direction: row;
