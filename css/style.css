@@ -96,19 +96,17 @@ p {
     display: flex;
     justify-content: center;
 }
-.about {
-    position: relative;
-}
 
-.about div {
+
+.about-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .profile {
-    right: 15px;
-    width: 20%;
+    width: 80px;
     border-radius: 10px;
 }
 
@@ -130,13 +128,7 @@ p {
     margin: auto;
 }
 
-.profile {
-    position: absolute;
-    align-items: center;
-    left: 50%;
-    top: 50%;
-    object-fit: cover;
-}
+
 /* PROJECTS */
 
 .first, 
@@ -271,6 +263,9 @@ hr {
     
 }
 
+.hide_m {
+    display: none;
+}
 
 @media (min-width: 700px) {
 
@@ -278,15 +273,22 @@ hr {
         width: 80%;
         margin: auto;
     }
-
     .logo {
         text-align: left;
+    }
+
+    .about {
+        position: relative;
     }
 
     .profile {
         width: 120px;
         border-radius: 30px;
-        top: 40%;
+        position: absolute;
+        align-items: center;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
     }
 
     .two {
@@ -297,6 +299,9 @@ hr {
         width: auto;
     }
 
+    .hide_m {
+        display: none;
+    }
     .first,
     .second,
     .third {
