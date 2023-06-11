@@ -24,7 +24,7 @@
 body {
     width: 100%;
     object-fit: cover;
-    margin: 0 auto;
+    margin: 0;
     background-color: var(--baige-light);
     color: var(--dark-nude);
 }
@@ -118,6 +118,12 @@ p {
     border-radius: 2px;
     background-color: var(--dark-nude);
     color: var(--black);
+}
+
+.arrow {
+    width: 20px;
+    padding: 2px;
+    margin: auto;
 }
 
 /* PROJECTS */
@@ -227,6 +233,7 @@ label {
     align-items: center;
     border: 1px solid var(--braon-coffe);
     margin: 5px;
+    font-weight: 600;
     border-radius: 5px;
     background-color: var(--dark-nude);
 }
@@ -234,6 +241,12 @@ label {
 .icons p:hover {
     background-color: var(--light-orange);
 }
+
+.icons div {
+    display: grid;
+}
+
+
 
 
 @media (min-width: 700px) {
