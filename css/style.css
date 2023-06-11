@@ -258,8 +258,8 @@ label {
 }
 
 hr {
-    color: var(--black);
-    
+   color: var(--black);
+   border: solid .5px;
 }
 
 .hide_m {
