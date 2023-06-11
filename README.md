@@ -41,10 +41,12 @@ npm run start
 
 ## Contributing
 
-Feel free to contact me if you find my profile interesting.
+Feel free to contact me if you have something else in mind so that I can make my portfolio longer.
 
 ## Contact
 
 
-You can contact me through my linkedin profile: (https://www.linkedin.com/in/vladimira-dmitrovic-090183249/);
+You can contact me through my linkedin profile: https://www.linkedin.com/in/vladimira-dmitrovic-090183249/;
+
+or my Facebook profile: https://www.facebook.com/vladimira.dmitrovic.3/?paipv=0&eav=AfYrucvWHIWhHK13qWGSMc6MRoXYCayHsoaKkQBs9Esp-NXJg0XdZYfkbJNqoGlJ3SE&_rdr
 
