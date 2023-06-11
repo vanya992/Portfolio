@@ -121,6 +121,7 @@ p {
     border-radius: 2px;
     background-color: var(--dark-nude);
     color: var(--black);
+    position: relative;
 }
 
 .arrow {
@@ -128,11 +129,14 @@ p {
     padding: 2px;
     margin: auto;
 }
-.about-heading {
-    displaY: flex;
-    justify-content: space-between;
-}
 
+.profile {
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    object-fit: cover;
+}
 /* PROJECTS */
 
 .first, 
@@ -271,7 +275,7 @@ hr {
 @media (min-width: 700px) {
 
     body {
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
 
@@ -281,6 +285,8 @@ hr {
 
     .profile {
         width: 120px;
+        border-radius: 30px;
+        top: 40%;
     }
 
     .two {
